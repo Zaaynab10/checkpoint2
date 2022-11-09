@@ -1,0 +1,128 @@
+/* Stylisons le fond de la page ainsi que l'en-tete de notre page  */
+body{
+color:rgb(255, 255, 255) ;
+font-family: 'Roboto', sans-serif;
+background-color:  rgb(67, 3, 3);
+}
+/*Mettre la liste de la  barre de navigation sur la meme ligne */
+.navigation li{
+display: inline-block;
+font-size:20px ;
+margin-left: 25px;
+}
+/*Stylisons la barre de navigation*/
+.navigation{
+ margin-left:800px;
+ margin-top :-9px;
+ border-left:  rgb(67, 3, 3) solid 2px; 
+ background-color:rgb(55, 55, 2);
+ width: 760px;
+}
+/*Stylisons l'image ainsi que le texte sur l'image*/
+#Decoration{
+    display: block;
+    font-size: 40px;
+    height: 700px;
+    width: 500px;
+    margin-left: 800px;
+    margin-top: -605px;
+    border-left: rgb(63, 4, 4) solid 2px ;
+    margin-bottom: 500px;
+   }
+/*Replacons convenablement le nom et la specialite*/
+h6{
+ font-size: 90px;
+ margin-top: -70px;
+ margin-left: -500px;
+ background-color:  rgb(67, 3, 3);
+}
+h5{
+ font-size: 50px;
+ margin-top: -240px;
+ margin-left: -190px;
+ background-color: rgb(255, 255, 44);
+ color: rgb(63, 4, 4);
+ text-align: center;
+}
+#A_Propos{
+height:579px ;
+width: 700px;
+font-size: 20px;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+/*Stylisons les liens */
+a:link{
+ color: aliceblue;
+ text-decoration:none;
+}
+a:visited{
+ color: rgb(255, 249, 249);
+}
+/* Le main de notre page */
+main{
+ margin-top: -235px;
+ height: 1110px;
+ width: 550px;
+ margin-left: 10vh;
+}
+#Travail{
+ background-color:rgb(228, 208, 62);
+ height:800px;
+ width:900.4px ;
+ border:brown solid 2px ;
+ margin-top:-300px ;
+ color: black;
+ border-radius:20px ;
+ font-weight: bolder ;
+}
+#Travail > ul {
+margin-top: 300px;
+}
+#Cv{
+ background-color:rgb(242, 255, 204);
+ height:798.9px;
+ width:900px ;
+ margin-top:-803px ;
+ margin-left:600px;
+ border: brown solid 2px ;
+ border-left: brown dotted 5px;
+ color: black;
+ border-radius: 0px 20px 20px 0px;
+}
+main div{
+display: inline-block;
+font-size: 15px;
+margin: 20px;
+margin-top:50px ;
+height:40px ;
+width:300px;
+margin-left: 60px;
+}
+.Titre{
+ text-align: left;
+ background-color:rgb(55, 55, 2) ; 
+ color: rgb(204, 213, 214);
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*le pied de page de notre page*/
+footer{
+ background-color: rgb(67, 3, 3);
+}
+/* Stylisons le formulaire*/
+#Contact_Me{
+ border:rgb(14, 27, 14) solid 5px ;
+ display: inline;
+ text-align: center;
+ font-size: 100px;
+ border-radius:  25px 45px 25px/45px;
+}
+#Contact{
+ text-align: center;
+}
+/*Stylisons les logos de nos reseaux sociaux */
+.Reseau{
+ height: 20px;
+ width: 60px;
+ background-color: rgb(86, 76, 4);
+}
